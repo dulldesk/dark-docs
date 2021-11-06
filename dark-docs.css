@@ -355,6 +355,33 @@
   transform: rotate(180deg);
 }
 
+/* Statistics dialog popup*/
+.docs-gm .modal-dialog, .docs-gm .modal-dialog * {
+  color: white;
+  background-color: var(--darkgray);
+}
+.docs-gm .kix-documentmetricsdialog-row {
+  border-bottom-color: var(--gray);
+}
+.docs-material-gm-labeled-checkbox-circle {
+  opacity: 0.25;
+}
+.docs-gm .docs-dialog .modal-dialog-title-close::after {
+  filter: invert();
+}
+.docs-gm .docs-dialog .modal-dialog-title-close:hover {
+  background-color: var(--gray);
+}
+.docs-gm .modal-dialog .modal-dialog-buttons button[name="cancel"] {
+  background: none;
+  border-color: var(--lightergray) !important;
+  color: var(--paleblue);
+}
+.docs-gm .modal-dialog .goog-buttonset-action {
+  background: var(--paleblue);
+  color: var(--darkgray);
+}
+
 /* Document */
 
 /* Ruler */
