@@ -5,17 +5,17 @@
   --ripple: #394457;
   --lightgray: #616266;
   --lightergray: #9aa0a6;
-	--gray: #3C4043;
+  --gray: #3C4043;
   --darkgray: #202124;
   --text-hover-on: text-shadow 0.1s ease;
   --text-hover-off: text-shadow 0.25s ease;
   --button-on: background-color 0.1s ease;
-	--button-off: background-color 0.25s ease;
+  --button-off: background-color 0.25s ease;
 }
 
 /*Top bar*/
 #docs-chrome, .docs-material #docs-header .docs-titlebar-buttons {
-	background-color: var(--darkgray);
+  background-color: var(--darkgray);
   outline: none;
 }
 
@@ -74,7 +74,7 @@
   transition: var(--button-on);
 }
 .docs-gm .docs-menubar .goog-control.docs-menu-button-open-below {
-	background-color: var(--ripple);
+  background-color: var(--ripple);
   color: white;
 }
 
@@ -190,7 +190,7 @@
   transition: filter 0.25s ease;
 }
 .docs-gm #docs-titlebar-share-client-button .jfk-button .scb-button-icon {
-	filter: brightness(0);
+  filter: brightness(0);
 }
 .docs-gm #docs-titlebar-share-client-button .jfk-button.jfk-button-hover {
   filter: brightness(105%);
@@ -386,7 +386,6 @@ body {
 
 .kix-appview-editor {
   background-color: var(--darkgray) !important;
-  background-image: url("https://images.unsplash.com/photo-1568345284020-590abc9390d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -646,4 +645,65 @@ body {
 }
 .companion-guest-app-switcher .app-switcher-button-selected .app-switcher-button-icon-background-inner {
   background-color: var(--ripple);
+}
+
+
+/* revision history*/
+.docs-gm .docs-revisions-chromecover-content-color-default {
+ background-color:var(--darkgray);
+ color:white;
+}
+
+/* Comments */
+
+.docos-anchoreddocoview .docos-replyview-first.docos-anchoredreplyview,
+.docs-gm .docos-anchoredreplyview, .docs-gm .docos-showrepliesbutton, .docs-gm .docos-anchoreddocoview-input-pane,
+.docos-anchoreddocoview-content.docos-docoview-replycontainer {
+  background-color: var(--darkgray);
+}
+
+.docs-gm .docos-anchoredreplyview-header .docos-anchoredreplyview-timestamp {
+  /* color: #3c4043; */
+  color: var(--lightergray);
+}
+
+.docs-gm .docos-anchoredreplyview-header .docos-anchoredreplyview-author,
+.docs-gm .docos-anchoredreplyview .docos-anchoredreplyview-body,
+.docs-gm .docos-input-typing > .docos-input-textarea {
+  color: white;
+}
+
+.docs-gm .docos-anchoredreplyview .docos-anchoredreplyview-body > div,
+.docs-gm .docos-anchoredreplyview .docos-anchoredreplyview-body > div > span:first-child {
+  color: white !important;
+}
+
+.docs-gm .docos-anchoredreplyview .docos-anchoredreplyview-body > div > span {
+  color: var(--lightergray) !important;
+}
+
+.docos-anchoreddocoview.docos-docoview-active .docos-replyview-first .docos-show-more, .docos-anchoreddocoview.docos-docoview-active:hover .docos-replyview-first .docos-show-more,
+.docs-gm .docos-anchoreddocoview .docos-show-more, .docs-gm .docos-anchoreddocoview .docos-show-less, .docs-gm .docos-anchoreddocoview.docos-docoview-active .docos-show-more, .docs-gm .docos-anchoreddocoview.docos-docoview-active .docos-show-less, .docs-gm .docos-replyview-first .docos-show-more, .docs-gm .docos-anchoreddocoview.docos-docoview-tesla-conflict:hover .docos-show-more,
+.docos-anchoreddocoview.docos-docoview-active .docos-replyview-first .docos-show-less {
+  background: var(--darkgray);
+}
+.docos-show-more, .docos-show-less {
+  color: var(--paleblue);
+}
+
+/* find/replace bar */
+.docs-slidingdialog {
+  background-color: #202124d1;
+}
+
+.docs-findinput-container {
+  background: var(--darkgray);
+}
+
+.docs-gm .docs-findinput-container, .docs-gm .docs-gotoinput-container,
+#docs-findbar-input input {
+  color: white;
+}
+.docs-gm .docs-findinput-container-focus, .docs-gm .docs-gotoinput-container:focus {
+    border-color: var(--paleblue);
 }
