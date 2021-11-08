@@ -206,11 +206,13 @@
 /* Toolbar */
 
 /* Toolbar wrapper */
+.docs-material.docs-toolbar-more-toolbar,
 .docs-material #docs-toolbar-wrapper {
   background-color: var(--darkgray);
 }
+.docs-material.docs-toolbar-more-toolbar,
 .docs-gm #docs-toolbar-wrapper {
-  border-color: var(--gray);
+  border: 1px solid var(--lightgray);
 }
 
 /* Toolbar buttons */
